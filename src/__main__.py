@@ -47,7 +47,7 @@ def main(args):
     cmds = []
     for file_to_process in files_to_process:
         cmds.append([
-                str(args.bin.resolve()),
+                str(args.bin),
                 '-remote',
                 '-db',
                 args.db,
