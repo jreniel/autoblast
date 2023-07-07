@@ -27,7 +27,7 @@ def run_blast(cmd):
             encoding='utf-8',
             ) as child:
         child.expect(pexpect.EOF)
-        return child.before.decode('utf-8')
+        return child.before
 
 
 def main(args):
