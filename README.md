@@ -86,6 +86,10 @@ Ok, so this is where the actual fun begins! We have autoblast ready to roll, so 
 First, you will need an excel file.
 The only thing that is **required** on this excel file is to have a header column named `sequence` that contains, you guessed it, the sequences!
 You can have other header colums, they will be ignored by autoblast.
+It is highly recommended you use the --nseqs=50 flag to chunk the requests in bunches of 50.
+
+### Example:
+`autoblast eDNA_AES2023_WORKING.xlsx --taxdb=$HOME/taxdb --nseqs 50`
 
 
 ## Note:
