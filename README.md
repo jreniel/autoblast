@@ -95,4 +95,4 @@ It is highly recommended you use the --nseqs=50 flag to chunk the requests in bu
 ## Note:
 Running these queries can take a long time. If it hasn't crashed, go and get a coffee!
 
-
+## Happy blastng!
