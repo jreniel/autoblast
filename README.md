@@ -28,7 +28,7 @@ Naturally, you would need to adjust this path to your case.
 ### Pre-requisite 2: The blast taxonomic database
 
 You will also need to download a copy of the blast taxonomic database.
-This database is normally found at: ftp://ftp.ncbi.nlm.nih.gov/blast/db/taxdb.tar.gz
+This database is normally found at: http://ftp.ncbi.nlm.nih.gov/blast/db/taxdb.tar.gz
 You will need to untar this file somewhere, which the `blastn` binary will try to use for cross-referencing it's output and providing taxonomic information.
 Now, what's important to note is the following: in reality you only need to keep 1 copy of this database in your machine.
 Naturally, you don't want to keep multiple copies of the same file scattered around your computer and taking up space.
@@ -66,7 +66,7 @@ conda activate autoblast
 
 Back to the topic of installation, assuming you have Python 3.8 or more, for most users, the installation can be as easy as executing:
 
-`pip install git+https://code.wm.edu/jrcalzada/autoblast/`
+`pip install git+https://github.com/jreniel/autoblast.git`
 
 and if all goes well, you are ready to use autoblast!
 
@@ -86,3 +86,9 @@ Ok, so this is where the actual fun begins! We have autoblast ready to roll, so 
 First, you will need an excel file.
 The only thing that is **required** on this excel file is to have a header column named `sequence` that contains, you guessed it, the sequences!
 You can have other header colums, they will be ignored by autoblast.
+
+
+## Note:
+Running these queries can take a long time. If it hasn't crashed, go and get a coffee!
+
+
